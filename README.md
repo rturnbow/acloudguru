@@ -23,3 +23,4 @@ git log (show history of commits)
 ====================================================
 
 New Entry
+Master error
