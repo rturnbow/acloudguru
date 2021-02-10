@@ -21,3 +21,5 @@ git log (show history of commits)
 		-b <name>
 			Create and set new branch to HEAD
 ====================================================
+
+New Entry
