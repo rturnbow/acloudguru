@@ -68,4 +68,7 @@ git diff <target_name>..<target_name2>
 		
 	git pull
 		fetch and then merge
+		
+	git push
+		push code to remote
 ====================================================
