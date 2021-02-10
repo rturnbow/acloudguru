@@ -13,6 +13,8 @@ git log (show history of commits)
 	<branch name>
 	--author "<name>"
 		show all logs for author <name>
+	--oneline
+		displays condensed output
 
 /==================\
 	Branches
