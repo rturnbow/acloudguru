@@ -18,4 +18,6 @@ git log (show history of commits)
 	
 	git checkout <branch name>
 		switch to desired branch
+		-b <name>
+			Create and set new branch to HEAD
 ====================================================
