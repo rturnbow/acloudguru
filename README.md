@@ -15,12 +15,20 @@ git log (show history of commits)
 		return list of branches with active branch flagged
 		-c <name>
 			Create a branch with specified <name>
+		-v
+			show latest changes to all branches
 	
 	git checkout <branch name>
 		switch to desired branch
 		-b <name>
 			Create and set new branch to HEAD
+			
+	git stash
+		take a snapshot of current changes
+		
+	git stash list
+		list the stashes
+		
+	git stash pop
+		basially git status but for stashes
 ====================================================
-
-New Entry
-Master error
