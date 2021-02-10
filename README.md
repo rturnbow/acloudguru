@@ -44,3 +44,16 @@ git diff <target_name>..<target_name2>
 	git stash pop
 		basially git status but for stashes
 ====================================================
+
+/==================\
+	Branches
+====================================================
+	git remote
+		add <remote> <url>
+			add a new <remote> at <url>
+		-v
+			list remote repositories
+			
+	git push -u <remote> <branch>
+		push <branch> to <remote>, and set default upstream for branch
+====================================================
