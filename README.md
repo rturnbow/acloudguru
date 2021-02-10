@@ -15,7 +15,11 @@ git log (show history of commits)
 		show all logs for author <name>
 	--oneline
 		displays condensed output
-
+git diff <target_name>..<target_name2>
+	show difference between local directory and <target_name> defaults to HEAD; can compare branches, refs, commits, etc
+	--cached 
+		show difference between staging and target (HEAD default)
+		
 /==================\
 	Branches
 ====================================================
