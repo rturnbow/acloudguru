@@ -7,6 +7,12 @@ git commit (commit changes from staging to current branch)
 	-m (optional) include a message with the commit (otherwise git opens a text editor)
 git config (set or get configuration)
 git log (show history of commits)
+	-all
+		show all logs
+	<commit ID>
+	<branch name>
+	--author "<name>"
+		show all logs for author <name>
 
 /==================\
 	Branches
