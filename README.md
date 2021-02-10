@@ -46,7 +46,7 @@ git diff <target_name>..<target_name2>
 ====================================================
 
 /==================\
-	Branches
+	Remote
 ====================================================
 	git remote
 		add <remote> <url>
@@ -56,4 +56,16 @@ git diff <target_name>..<target_name2>
 			
 	git push -u <remote> <branch>
 		push <branch> to <remote>, and set default upstream for branch
+		
+	git log --oneline remotes/origin/main
+		view log of remote repo
+	
+	git fetch
+		pull down changes from remote repo
+	
+	git merge
+		merge fetched and current repo (may generate conflicts)
+		
+	git pull
+		fetch and then merge
 ====================================================
